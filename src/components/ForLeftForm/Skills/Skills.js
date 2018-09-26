@@ -10,12 +10,12 @@ const Skills = (props) => (
             <table style={{width:'100%'}}>
                 <tbody>
                     <tr>
-                        <td>1. <Textbox width="200px"/></td>
-                        <td>2. <Textbox width="200px"/></td>
+                        <td>1. <Textbox width="200px" tbclicked={(event)=>{props.skill_tb(event,"tb1")}}/></td>
+                        <td>2. <Textbox width="200px"  tbclicked={(event)=>{props.skill_tb(event,"tb2")}}/></td>
                     </tr>
                     <tr>
-                        <td>3. <Textbox width="200px"/></td>
-                        <td>4. <Textbox width="200px"/></td>
+                        <td>3. <Textbox width="200px"  tbclicked={(event)=>{props.skill_tb(event,"tb3")}}/></td>
+                        <td>4. <Textbox width="200px"  tbclicked={(event)=>{props.skill_tb(event,"tb4")}}/></td>
                     </tr>
                 </tbody>
             </table>
